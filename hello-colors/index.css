@@ -46,16 +46,15 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
-    position: absolute;
+    width: 100%;
     height: 100%;
-    right: -80%;
+    transform: translateY(-100%);
     background: rgba(43, 44, 45,1);
     transition: all 0.7s;
 }
 .menu.open_menu{
     display: flex;
-    right: 0;
+    transform: translateY(0%);
 }
 .close_menu_icon{
     height: 50px;
