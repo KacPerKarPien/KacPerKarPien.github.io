@@ -61,7 +61,6 @@ nav{
     width: 50px;
     position: absolute;
     transition: all 0.7s;
-    transform: rotate(90deg);
     cursor: pointer;
     z-index: 2;
     top: 10px;
@@ -69,8 +68,7 @@ nav{
 }
 .open_menu_icon{
     transform-origin: center;
-    transform: rotate(-90deg);
-    right: calc(80% + 10px);
+    transform: rotate(180deg);
 }
 .menu a{
     color: #ffffff;
@@ -78,7 +76,7 @@ nav{
 .menu li{
     line-height: 80px;
     font-size: 3em;
-    margin-left: 20px;
+    text-align: center;
 }
 .section_menu{
     display: flex;
