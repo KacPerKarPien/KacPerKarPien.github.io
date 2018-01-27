@@ -97,7 +97,7 @@ nav{
     align-items: flex-end;
     background: url("img/d.svg") no-repeat;
     width: 90vw;
-    margin-left:55px 5vw 20px 5vw;
+    margin:55px 5vw 20px 5vw;
     height: 10vh;
     min-height: 300px;
 }
