@@ -88,20 +88,18 @@ nav{
     justify-content: flex-end;
     background: url("img/h.svg") no-repeat;
     width: 90vw;
-    margin:35px 5vw;
+    margin:75px 5vw 0 5vw;
     height: 10vh;
     min-height: 300px;
-    margin-bottom: 100px;
 }
 .section_letter_D{
     display: flex;
     align-items: flex-end;
     background: url("img/d.svg") no-repeat;
     width: 90vw;
-    margin-left: 5vw;
+    margin-left:55px 5vw 20px 5vw;
     height: 10vh;
     min-height: 300px;
-    margin-bottom: 80px;
 }
 .section_letter_P{
      display: flex;
@@ -110,7 +108,7 @@ nav{
     width: 90vw;
     height: 10vh;
     min-height: 300px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     margin-left: 5vw;
 }
 .scroll_info{
