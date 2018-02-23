@@ -508,6 +508,12 @@
     .works_item:nth-child(3) .works_text p{
         margin: 0 50px 15px 0;
     }
+    .works_item:nth-child(3) .works_text h2{
+        margin: 0 50px 50px 0;
+    }
+    .works_item:nth-child(3) .works_text a{
+        margin: 50px 50px 0 0;
+    }
     .works_text p{
         margin-left: 50px;
         margin-bottom: 15px;
