@@ -14,8 +14,13 @@
     <div class="wrapper">
         <header class="welcome">
             <div class="container_header">
-                <nav >
-                     <img src="img/down_menu.svg" alt="" id="icon_menu" class="close_menu_icon">
+                <nav>
+                    <button type="button" class="button_menu" id="icon_menu">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                    </button>
+
                     <ul id="menu" class="menu">
                         <li><a href="">the offer</a></li>
                         <li><a href="">portfolio</a></li>
@@ -24,7 +29,7 @@
                     </ul>
 
                 </nav>
-                <section class="section_menu">
+                <section class="section_letter_H">
                     <h1>hello!</h1>
                     <p>We are creative agency based in Warsaw, Poland Creating projects for clients all over the world</p>
                 </section>
@@ -41,11 +46,13 @@
             <article class="works">
                 <h1>works</h1>
                 <section class="works_item">
+
                     <div class="works_text">
+                        <h2>pineapp.</h2>
                         <p>Period: March-April 2016</p>
                         <p>Team: John (UI), Edwin (UX)</p>
                         <p>Jessica (Front-end)</p>
-                        <p>VISIT THE WEBSITE</p>
+                        <a href="#">VISIT THE WEBSITE</a>
                     </div>
 
                     <div class="works_img">
@@ -58,10 +65,11 @@
                 <section class="works_item">
 
                     <div class="works_text">
+                        <h2>healthy dining.</h2>
                         <p>Period: March-April 2016</p>
                         <p>Team: John (UI), Edwin (UX)</p>
                         <p>Jessica (Front-end)</p>
-                        <p>VISIT THE WEBSITE</p>
+                        <a href="#">VISIT THE WEBSITE</a>
                     </div>
                     <div class="works_img">
                         <p class="right_paragraph">branding & mobile</p>
@@ -71,10 +79,11 @@
                 <section class="works_item">
 
                     <div class="works_text">
+                        <h2>smart city.</h2>
                         <p>Period: March-April 2016</p>
-                        <p>Team: John (UI), Edwin (UX)</p>
+                        <p>Team: John (UI), Edwin (UX),</p>
                         <p>Jessica (Front-end)</p>
-                        <p>VISIT THE WEBSITE</p>
+                        <a href="#">VISIT THE WEBSITE</a>
                     </div>
                     <div class="works_img">
                         <p class="left_paragraph">branding & web</p>
@@ -82,13 +91,67 @@
                     </div>
                 </section>
             </article>
-            <article class="teams">
-               <img class="team_photography">
-                <section class="team_text">
-                    
+            <article class="team">
+                <h1>team</h1>
+                <div class="team_info">
+                <section class="team_img">
+                    <img src="img/team.jpg" alt="our team">
+                    <p>
+                    </p>
                 </section>
+                <section class="team_text">
+                    <h2>how we started</h2>
+                    <p>Whatever crucifix hexagon listicle keytar, blue bottle fap beard vinyl wayfarers tattooed. Viral direct trade meditation etsy venmo fingerstache. Post-ironic shabby chic try-hard, PBR&B man braid you probably haven't heard of them pour-over food truck VHS leggings iceland salvia copper mug.
+                    </p>
+                    <p>Austin pitchfork heirloom quinoa disrupt, twee locavore DIY small batch bicycle rights pop-up gochujang venmo. Deep v blue bottle hell of, kale chips man bun pok pok aesthetic letterpress stumptown. Helvetica 8-bit live-edge, narwhal snackwave meggings hoodie whatever mumblecore seitan next level. Pok pok kale chips freegan pabst cardigan.</p>
+                    <p>Pabst raw denim ramps, lo-fi hammock keffiyeh vape. VHS master cleanse franzen slow-carb letterpress literally, bushwick fingerstache scenester blue bottle. Aesthetic thundercats YOLO, freegan deep v 8-bit scenester affogato. Try-hard stumptown ugh pitchfork enamel pin waistcoat. Asymmetrical etsy church-key, leggings scenester vape meditation offal blog thundercats semiotics chicharrones. Offal iPhone forage sustainable. Cronut irony chillwave poke celiac.</p>
+                    <h4>Next level iceland blue bottle fingerstache:</h4>
+                    <ul>
+                        <li>- hella ennui banh mi iPhone kitsch prism VHS marfa fixie</li>
+                        <li>- Typewriter direct trade shoreditch,small batch hexagon</li>
+                        <li>- Poutine jean shorts kale chips normcore.</li>
+                    </ul>
+                </section>
+                </div>
+            </article>
+            <article class="contact">
+                <h1>contact</h1>
+                <div class="contact_info">
+                    <form method="post">
+                        <label for="name">name:</label>
+
+                        <input type="text" name="name">
+
+                        <label for="email">email:</label>
+
+                        <input type="email" name="email">
+
+                        <label for="">topic:</label>
+
+                        <input type="text" name="topic">
+
+                        <button type="submit" class="send_mess_button">Wyślij!</button>
+                    </form>
+                    <div class="office">
+                        <img src="img/office.jpg" alt="">
+                        <div class="office_info">
+                            <p>Our office is located in the heart of Warsaw</p>
+                            <p clas>Feel free to say hello!</p>
+                            <p>Warsaw St. 23/21 03-323 Warsaw, POLAND
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </article>
         </main>
+        <footer class="social_media">
+            <p>designed with love by The Awwwwesomes Warsaw, 2016</p>
+            <div class="social_icons">
+                <a href=""><img src="img/pinterest.svg" alt="" class="social_media_icon"></a>
+                <a href=""><img src="img/facebook.svg" alt="" class="social_media_icon"></a>
+                <a href=""><img src="img/twitter.svg" alt="" class="social_media_icon"></a>
+            </div>
+        </footer>
     </div>
     <script src="main.js"></script>
 </body>
